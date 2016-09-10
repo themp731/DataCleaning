@@ -51,7 +51,7 @@ sub_test <- read.table("./data/test/subject_test.txt")
 sub_train <- read.table("./data/train/subject_train.txt")
 
 #Combines the Subject Info
-sub_total <- rbind(sub_test, sub_train)
+sub_total <- rbind(sub_test, sub_train)data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAYAAAD6reaeAAAAN0lEQVR42mNggIJJ02f+Z0AGE6fN/A8ShEvAOAg86z/DfyyAASvA1D4Toh1ZAK4dIjEL0zxkAQAPeFlrV0HzRgAAAABJRU5ErkJggg==
 all_data <- cbind(sub_total, results)
 colnames(all_data)[1] <- "Subject"
 
